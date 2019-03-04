@@ -23,7 +23,8 @@ width: 25%;
 
 .two{
 width:40%;
-margin-top:10%;
+margin-top:20%;
+margin-left: 10%;
 text-align: left;
 }
 
@@ -34,7 +35,6 @@ text-align: left;
 
 .three{
 width:25%;
-margin-left: 10%;
 text-align: right;
 }
 
