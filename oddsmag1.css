@@ -7,6 +7,16 @@ body{
  a{
    text-decoration: none;
 
+
+ }
+
+ #link{
+   color:salmon;
+ }
+
+ #link a:hover{
+   color:black;
+
  }
 
 .container{
@@ -31,6 +41,12 @@ margin-top:10%;
 .two img{
   width: 100%;
   margin-bottom:5%;
+}
+
+.two video{
+  width:100%;
+  margin-bottom: 5%;
+
 }
 
 .description{
