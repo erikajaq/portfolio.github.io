@@ -33,6 +33,11 @@ text-align: center;
   margin-bottom:5%;
 }
 
+.two a:hover{
+  opacity: 0.75;
+  transition: 0.35s;
+}
+
 .three{
 width:25%;
 text-align: right;
