@@ -1,0 +1,127 @@
+
+body{
+
+background-color: #FBF4F1;
+}
+
+@font-face{
+font-family: 'Attila Sans Semibold';
+src: url(AttilaSansSharp-Semibold.otf);
+}
+
+@font-face{
+font-family: 'Attila Sans Thin';
+src: url(AttilaSansSharp-Thin.otf);
+}
+
+@font-face{
+font-family: 'Attila Sans Black';
+src: url(AttilaSansSharp-Black.otf);
+}
+
+@font-face{
+font-family: 'Attila Sans Regular';
+src: url(AttilaSansUniform-Regular.otf);
+}
+
+.one {
+  font-family:'Attila Sans Thin';
+  font-size: 18pt;
+}
+
+.three{
+  font-family:'Attila Sans Thin';
+  font-size: 18pt;
+}
+
+.two{
+  font-family:'Attila Sans Semibold';
+  font-size: 88pt;
+  line-height: 1;
+  width:75%;
+  margin-top:15%;
+  text-align: center;
+
+}
+
+.two a:hover{
+  text-decoration: underline;
+  color:
+}
+
+.trademark{
+  margin-top: 40%;
+  font-family:'Attila Sans Thin';
+  font-size: 8pt;
+}
+
+.container{
+  display: flex;
+  width: 95%;
+  margin:auto;
+  margin-top: 2%;
+
+}
+
+.one{
+width: 25%;
+}
+
+
+.three{
+width:25%;
+text-align: right;
+}
+
+.three a{
+  color:black;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.one a:hover{
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.three a:hover{
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+#projects{
+width:100%;
+}
+
+#contact{
+  font-size: 50pt;
+}
+
+#contact a:hover{
+  text-decoration: none;
+  color: tomato;
+}
+
+#about{
+  font-size: 30pt;
+  line-height: 35pt;
+}
+
+#about a:hover{
+   color: tomato;
+}
+
+#CV{
+  font-size: 20pt;
+  line-height: 25pt;
+  font-family: 'Attila Sans Thin';
+}
+
+#CV a:hover{
+  color:tomato;
+}
