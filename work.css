@@ -36,21 +36,41 @@ src: url(AttilaSansUniform-Regular.otf);
 
 .two{
   font-family:'Attila Sans Semibold';
-  font-size: 88pt;
-  line-height: 1;
+  font-size: 65pt;
+  line-height: 1.25;
   width:75%;
-  margin-top:15%;
+  margin-top:17%;
+  margin-bottom: 2%;
   text-align: center;
 
 }
 
+
+.one a:hover{
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.three a:hover{
+  opacity: 50%;
+  transition: 0.5s;
+}
+
 .two a:hover{
   text-decoration: underline;
-  color:
+  color: tomato;
+}
+
+
+.two a:hover img{
+display:flex;
+position:absolute;
+margin-left:56%;
+z-index: -100;
 }
 
 .trademark{
-  margin-top: 40%;
+  margin-top: 33%;
   font-family:'Attila Sans Thin';
   font-size: 8pt;
 }
@@ -82,46 +102,4 @@ text-align: right;
 a{
   text-decoration: none;
   color:black;
-}
-
-.one a:hover{
-  opacity: 50%;
-  transition: 0.5s;
-}
-
-.three a:hover{
-  opacity: 50%;
-  transition: 0.5s;
-}
-
-#projects{
-width:100%;
-}
-
-#contact{
-  font-size: 50pt;
-}
-
-#contact a:hover{
-  text-decoration: none;
-  color: tomato;
-}
-
-#about{
-  font-size: 30pt;
-  line-height: 35pt;
-}
-
-#about a:hover{
-   color: tomato;
-}
-
-#CV{
-  font-size: 20pt;
-  line-height: 25pt;
-  font-family: 'Attila Sans Thin';
-}
-
-#CV a:hover{
-  color:tomato;
 }
