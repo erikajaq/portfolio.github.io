@@ -129,13 +129,12 @@ width:100%;
   color:tomato;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .two a{
     font-family:'Attila Sans Semibold';
     font-size: 100pt;
-    line-height: 2.5;
+    line-height: 10;
     width:100%;
-    margin-top:15%;
     text-align: center;
   }
 
