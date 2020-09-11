@@ -131,16 +131,29 @@ width:100%;
 
 @media only screen
     and (device-width : 375px)
-    and (device-height : 812px)
     and (orientation : portrait)
 
     {
 
-  .container{
-    display: flex;
-    max-width: 100%;
-    margin:auto;
-    margin-top: 2%;
+      .container{
+        display: flex;
+        width: 95%;
+        margin:auto;
+        margin-top: 2%;
+
+      }
+
+  .one {
+    font-family:'Attila Sans Thin';
+    font-size: 25pt;
+    width:10%;
+  }
+
+  .two{
+    font-family:'Attila Sans Semibold';
+    width:80%;
+    margin-top:35%;
+    text-align: center;
 
   }
 
@@ -148,19 +161,14 @@ width:100%;
     font-family:'Attila Sans Semibold';
     font-size: 100pt;
     line-height: 10;
-    margin-top: 40%;
-    width:100%;
     text-align: center;
-  }
-
-  .one {
-    font-family:'Attila Sans Thin';
-    font-size: 25pt;
   }
 
   .three{
     font-family:'Attila Sans Thin';
     font-size: 25pt;
+    width:10%;
+    text-align: right;
   }
 
 
