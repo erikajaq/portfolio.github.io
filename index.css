@@ -139,5 +139,15 @@ width:100%;
     text-align: center;
   }
 
+  .one {
+    font-family:'Attila Sans Thin';
+    font-size: 25pt;
+  }
+
+  .three{
+    font-family:'Attila Sans Thin';
+    font-size: 25pt;
+  }
+
 
 }
