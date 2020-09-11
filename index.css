@@ -145,7 +145,7 @@ width:100%;
 
   .one {
     font-family:'Attila Sans Thin';
-    font-size: 25pt;
+    font-size: 40pt;
     width:10%;
   }
 
@@ -160,13 +160,13 @@ width:100%;
   .two a{
     font-family:'Attila Sans Semibold';
     font-size: 100pt;
-    line-height: 10;
+    line-height: 4;
     text-align: center;
   }
 
   .three{
     font-family:'Attila Sans Thin';
-    font-size: 25pt;
+    font-size: 40pt;
     width:10%;
     text-align: right;
   }
