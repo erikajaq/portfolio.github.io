@@ -165,3 +165,41 @@ width:100%;
 
 
 }
+
+@media only screen and (max-width: 800px)
+{
+
+  .container{
+    display: flex;
+    width: 95%;
+    margin:auto;
+    margin-top: 2%;
+
+  }
+
+  .one{
+width: 10%;
+  }
+
+  .two{
+    font-family:'Attila Sans Semibold';
+    width:80%;
+    margin-top:35%;
+    text-align: center;
+
+  }
+
+  .three{
+    width:10%;
+    margin-right: 5%;
+  text-align: right;
+  }
+
+  .two a{
+    font-family:'Attila Sans Semibold';
+    font-size: 50pt;
+    line-height: 1;
+    width:100%;
+    text-align: center;
+  }
+}
