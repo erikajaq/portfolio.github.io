@@ -128,3 +128,16 @@ width:100%;
 #CV a:hover{
   color:tomato;
 }
+
+@media only screen and (max-width: 600px) {
+  .two a{
+    font-family:'Attila Sans Semibold';
+    font-size: 100pt;
+    line-height: 2.5;
+    width:100%;
+    margin-top:15%;
+    text-align: center;
+  }
+
+
+}
