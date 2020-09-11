@@ -129,7 +129,21 @@ width:100%;
   color:tomato;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (orientation : portrait)
+
+    {
+
+  .container{
+    display: flex;
+    max-width: 100%;
+    margin:auto;
+    margin-top: 2%;
+
+  }
+
   .two a{
     font-family:'Attila Sans Semibold';
     font-size: 100pt;
