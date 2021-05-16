@@ -44,6 +44,12 @@ src: url(AttilaSansUniform-Regular.otf);
 
 }
 
+#credits{
+  font-family:'Attila Sans Thin';
+  font-size: 18pt;
+  margin-bottom: 10%;
+}
+
 .two a:hover{
   text-decoration: underline;
   color:
